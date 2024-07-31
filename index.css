@@ -1,0 +1,429 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar1{
+    height:70px;
+    width:1700px;
+    margin-left: 80px;
+    background-image: linear-gradient(to right,#07102a,#0044ff25);
+    color: rgb(255, 255, 255);
+    display:flex;
+    align-items: center;
+    border-bottom: 2px solid white ;
+}
+.img{
+    background-image:url("builder.png");
+    background-size: cover;
+    height: 800px;
+    width:1300px;
+}
+.mainimg{
+    margin-left:80px;
+    display: flex;
+}
+.logoname{
+    display: flex;
+    margin-left: 45px;
+    margin-top:20px;
+}
+.logo{
+    background-image: url("hook.png");
+    background-size: cover;
+    height:70px;
+    width:70px;
+}
+.companyname{
+    color: rgb(210, 184, 118);
+    font: initial;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left:10px;
+    border-bottom: 2px solid white;
+}
+.numberdetail{
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+}
+.maildetail{
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+}
+.timedetail{
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+}
+.call{
+    background-image: url("call.png");
+    background-size: cover;
+    height:30px;
+    width:30px;
+}
+.time{
+    background-image: url("clock.png");
+    background-size: cover;
+    height:30px;
+    width:30px;
+}
+.mail{
+    background-image: url("mail.png");
+    background-size: cover;
+    height:30px;
+    width:30px;
+}
+.number{
+    margin-left: 10px;
+    color: white;
+}
+.day{
+    margin-left: 10px;
+    color: white;
+}
+.id{
+    margin-left: 10px;
+    color: white;
+}
+.infoside{
+    width:398px;
+    margin-left: 2px;
+    background-image: linear-gradient(to bottom right,#000000,#424242);
+    color: rgb(255, 255, 255);
+}
+.bigtext{
+    margin-top: 70px;
+}
+.bigtxt{
+    font-size: 40px;
+    font-weight: bolder;
+    color:orange;
+    margin-left: 20px;
+}
+.bigtxt2{
+    font-size: 40px;
+    font-weight: bolder;
+    color:orange;
+    margin-left:60px;
+}
+.information{
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(160, 160, 160);
+}
+.textinfo{
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.border{
+    border: 2px solid white;
+}
+.border:hover{
+    border:2px solid orange;
+    border-radius: 20px;
+}
+.border2{
+    border: 2px solid white;
+}
+.border2:hover{
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    color:rgb(46, 46, 46);
+}
+.viewmore{
+    background-color:#00000000;
+    color: #ffffff;
+    height: 50px;
+    width: 150px;
+    border-color: transparent;
+    font-size: 25px;
+    font-style:oblique;
+    cursor: pointer;
+    margin-top:200px;
+    margin-left:120px;
+}
+.swiping{
+    display: flex;
+    margin-top: 300px;
+    margin-left:350px;
+}
+.swipdowntxt{
+    font-size: 45px;
+    font-weight: 700;
+    color:rgb(63, 186, 235);
+}
+.swip{
+    background-image: url("swip.png");
+    background-size: cover;
+    height: 100px;
+    width:100px;
+    margin-left: 60px;
+    margin-top:-20px;
+}
+.login{
+    margin-left:700px;
+}
+.guestimg{
+    background-image: url("user.png");
+    background-size: cover;
+    height:40px;
+    width:40px;
+    margin-left:20px;
+}
+.guesttxt{
+    font-size:15px;
+    color:#000000;
+    font-weight:600
+}
+.services{
+    height:1200px;
+    width:1700px;
+    margin-left: 80px;
+    background-image: linear-gradient(rgb(101, 202, 215),rgb(16, 62, 190));
+    color: rgb(255, 255, 255);
+    border-top: 2px solid white ;
+}
+.se{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-top:20px;
+    margin-left:850px;
+}
+.options{
+    border:2px solid skyblue;
+    height:1000px;
+    width:1540px;
+    margin-left:80px;
+    margin-top:80px;
+    border-radius: 20px;
+}
+.servi{
+    display:flex;
+}
+.servi2{
+    display:flex;
+    margin-top:40px;
+}
+.element{
+    border:2px solid white;
+    height:430px;
+    width:300px;
+    margin-left:65px;
+    margin-top:30px;
+    border-radius:50px;
+    background-image: linear-gradient(to bottom , darkblue,skyblue);
+}
+.img1{
+    background-image: url("multistoryhouse.png");
+    background-size: cover;
+    height:250px;
+    width:250px;
+    border-radius: 20px;
+    margin-top:25px;
+    align-self: center;
+    margin-left:25px;
+}
+.img2{
+    background-image: url("electricity.png");
+    background-size: cover;
+    height:250px;
+    width:250px;
+    border-radius: 20px;
+    margin-top:25px;
+    align-self: center;
+    margin-left:25px;
+}
+.img3{
+    background-image: url("plumbing.png");
+    background-size: cover;
+    height:250px;
+    width:250px;
+    border-radius: 20px;
+    margin-top:25px;
+    align-self: center;
+    margin-left:25px;
+}
+.img4{
+    background-image: url("steel.png");
+    background-size: cover;
+    height:250px;
+    width:250px;
+    border-radius: 20px;
+    margin-top:25px;
+    align-self: center;
+    margin-left:25px;
+}
+.imgtxt{
+    font-size: 20px;
+    text-align: center;
+    margin-top:10px;
+    font-weight: 600;
+    color: white;
+}
+.img5{
+    background-image: url("office.png");
+    background-size: cover;
+    height:250px;
+    width:250px;
+    border-radius: 20px;
+    margin-top:25px;
+    align-self: center;
+    margin-left:25px;
+}
+.img6{
+    background-image: url("3dfloor.png");
+    background-size: cover;
+    height:250px;
+    width:250px;
+    border-radius: 20px;
+    margin-top:25px;
+    align-self: center;
+    margin-left:25px;
+}
+.img7{
+    background-image: url("wallpaper.png");
+    background-size: cover;
+    height:250px;
+    width:250px;
+    border-radius: 20px;
+    margin-top:25px;
+    align-self: center;
+    margin-left:25px;
+}
+.why{
+    height:850px;
+    width:1700px;
+    background-color: #242424;
+    color: rgb(255, 255, 255);
+    border-top: 2px solid white ;
+    margin-top: 20px;
+
+}
+.choose{
+    text-align: center;
+    margin-top: 50px;
+    font-size:30px;
+}
+.us{
+    margin-top:40px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: rgb(196, 196, 196);
+}
+.civil{
+    font-weight: 600;
+    text-align: center;
+    margin-top:50px;
+}
+.work{
+    margin-top: 40px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: rgb(196, 196, 196);
+}
+.dailyissue{
+    font-weight: 600;
+    text-align: center;
+    margin-top:50px;
+}
+.sol{
+    margin-top: 40px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: rgb(196, 196, 196);
+}
+.site{
+    font-weight: 600;
+    text-align: center;
+    margin-top:50px;
+}
+.visit{
+    margin-top: 40px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: rgb(196, 196, 196);
+}
+.button{
+    background-color:#00000000;
+    color: whitesmoke;
+    height: 50px;
+    width: 150px;
+    border: transparent;
+    font-size: 25px;
+    font-style:oblique;
+    cursor: pointer;
+    margin-top:30px;
+    margin-left:70px;
+}
+.a2z{
+    font-size: 30px;
+    font-weight: 600;
+    color: orange;
+    margin-left:180px
+}
+.navbar2{
+    height:300px;
+    width:1700px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-top: 2px solid white ;
+}
+.Contact{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top:30px;
+    margin-left:40px;
+}
+.cname{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top:100px;
+    margin-left:300px;
+    color:skyblue;
+}
+.dev{
+    margin-top:-35px;
+    border:2px solid rgb(255, 255, 255);
+    width:300px;
+    height:55px;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+.devname{
+    color: rgb(142, 142, 142);
+    margin-left: 20px;
+}
+.leftarea{
+    display: flex;
+}
+.linkyt{
+    height:40px;
+    width:40px;
+    background-image: url("youtube.png");
+    background-size: cover;
+    border:2px solid white;
+    border-radius: 50px;
+}
+.buttons{
+    display: flex;
+    margin-left:420px;
+    margin-top:20px;
+}
+.ig{
+    height:40px;
+    width:40px;
+    background-image: url("instagram.png");
+    background-size: cover;
+    border:2px solid white;
+    border-radius: 50px;
+    margin-left:20px;
+}
+/* house, multi story contractor, electricity & plumbing,pre fabricated steel low cost house & office building, 3d flooring& walpapers
